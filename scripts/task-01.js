@@ -8,7 +8,7 @@ const customer = {
       return this.balance;
     },
     getDiscount() {
-      return rhius.discount;
+      return this.discount;
     },
     setDiscount(value) {
       this.discount = value;
